@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#contenedorTabla, #contenedorCarrito {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    flex: 1;
+    margin: 10px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+   
+    padding: 12px;
+    text-align: left;
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+.table th {
+    background-color: #747e89;
+    color: white;
+    font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Filas alternas */
+}
+
+.table tr:hover {
+    background-color: #e7f1ff; /* Color al pasar el ratón */
+}
+
+#contenedorTotal {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 10px;
+    border-top: 2px solid #ddd;
+}
+
+#totalFinal {
+    color: #8e97a4; /* Color verde para el total */
+}
+
+#contenedorCarrito h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+#contenedorTabla h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+input{
+    width: 30px;
+}
+
+button{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 3px;
+}

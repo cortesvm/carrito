@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>AgoodShop</title>
+</head>
+<body>
+    <h1>AgoodShop</h1>
+    <div id="contenedor">
+        <div id="contenedorTabla">
+            <table class="table" id="tablaProductos">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Pr. Unidad</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="cuerpoTablaProductos">
+                    <!-- Aquí se añadirán los productos dinámicamente -->
+                </tbody>
+            </table>
+        </div>
+        
+        <div id="contenedorCarrito">
+            <div id="tituloTotal">
+                <h2>Total</h2>
+            </div>
+            <div id="productosCarrito">
+                <table class="table" id="tablaCarrito">
+                    <tbody id="cuerpoTablaCarrito">
+                    </tbody>
+                </table>
+            </div>
+            <div id="contenedorTotal">
+                <span>Total</span>
+                <span id="totalFinal">0€</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js" type="module"></script>
+</body>
+</html>
